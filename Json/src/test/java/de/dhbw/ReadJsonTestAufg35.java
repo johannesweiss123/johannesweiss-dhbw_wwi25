@@ -23,7 +23,17 @@ public class ReadJsonTestAufg35 {
         assertThat(p.lastname).isEqualTo("Weiß");
         assertThat(p.city).isEqualTo("Karlsruhe");
         assertThat(p.street).isEqualTo("Thujaweg");
-        assertThat(p.hobbies).isEqualTo("Fitness", "Investing", "Travel");
+
+        assertThat(p.no).isEqualTo(11);
+        assertThat(p.zipCode).isEqualTo(76149);
+
+        assertThat(p.isFromKarlsruhe).isFalse();
+
+        assertThat(p.hobbies).containsExactly("Fitness", "Investing", "Travel");
+
+        assertThat(p.company).isNotNull();
+        assertThat(p.company.name).isEqualTo("Riverty");
+        assertThat(p.company.headquarter_city).isEqualTo("Baden Baden");
 
         System.out.println("Überprüfte Person: " + p.firstname + " " + p.lastname + " aus " + p.city + " im " + p.street + " Er macht gerne " + p.hobbies);
 

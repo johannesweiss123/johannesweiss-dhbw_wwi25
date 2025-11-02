@@ -1,9 +1,9 @@
 {
   "firstname": "Johannes",
-  "lastname": "Weiss",
+  "lastname": "Weiß",
   "street": "Thujaweg",
   "no": 11,
-  "zip": 76149,
+  "zipCode": 76149,
   "city": "Karlsruhe",
   "hobbies": ["Fitness", "Investing", "Travel"],
   "company": {
