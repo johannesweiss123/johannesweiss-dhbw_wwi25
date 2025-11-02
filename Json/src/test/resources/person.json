@@ -1,0 +1,14 @@
+{
+  "firstname": "Johannes",
+  "lastname": "Weiss",
+  "street": "Thujaweg",
+  "no": 11,
+  "zip": 76149,
+  "city": "Karlsruhe",
+  "hobbies": ["Fitness", "Investing", "Travel"],
+  "company": {
+    "name": "Riverty",
+    "headquarter_city": "Baden Baden"
+  },
+  "isFromKarlsruhe": false
+}
